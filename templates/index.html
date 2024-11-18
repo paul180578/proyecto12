@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor YouTube a MP3</title>
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Convertidor de YouTube a MP3</h1>
+        <form action="/download" method="POST">
+            <label for="url">Ingresa el enlace del video:</label>
+            <input type="text" id="url" name="url" placeholder="https://www.youtube.com/watch?v=..." required>
+            <button type="submit">Convertir y Descargar</button>
+        </form>
+    </div>
+</body>
+</html>
